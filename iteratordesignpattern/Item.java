@@ -12,7 +12,7 @@ public class Item {
     }
 
     public String toString() {
-        return "***** " + title + " *****\n" + description + "\nPrice: " + price +"";
+        return "\n***** " + title + " *****\n" + description + "\nPrice: " + price +"";
     }
 
     public double getPrice() {
