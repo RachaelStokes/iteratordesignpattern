@@ -12,7 +12,7 @@ public class Item {
     }
 
     public String toString() {
-        
+        return "***** " + title + " *****\n" + description + "\nPrice: " + price +"";
     }
 
     public double getPrice() {
@@ -20,7 +20,7 @@ public class Item {
     }
 
     public void print() {
-
+        System.out.println(toString());
     }
     
 }
