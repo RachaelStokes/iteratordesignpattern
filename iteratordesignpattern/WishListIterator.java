@@ -23,7 +23,7 @@ public class WishListIterator implements Iterator {
      * @return boolean true or false if it has an item
      */
     public boolean hasNext() {
-        return items[position] != null && position < items.length;
+        return position < items.length && items[position] != null;
     }
 
     /**
